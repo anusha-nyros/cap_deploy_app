@@ -29,9 +29,9 @@ gem 'ffaker'
 
 
 #to deploy app into server
-  gem 'capistrano', '~> 3.0'      # deploy
-  gem 'capistrano-rvm', '~> 0.1.0'
-  gem 'capistrano-rails', '~> 1.1.0'
+gem  'rvm-capistrano'
+ gem "capistrano", "~> 2.15.5"
+ gem 'capistrano-ext'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
